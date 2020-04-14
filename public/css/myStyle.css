@@ -1,0 +1,184 @@
+
+/*!
+=========================================================
+* This is customized style for the website
+=========================================================
+
+*/
+.table-container{
+  padding: 15px!important;
+  min-height: 50%;
+}
+.dashboard-menu:hover{
+  text-decoration: none;
+}
+.modal{
+margin-top: 10%;
+}
+
+.breadcrumb-item a:hover{
+  text-decoration: none!important;
+}
+
+/**
+* For dropdown checkboxes
+*/
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.left-element{
+  float: left;
+}
+.right-element{
+  float: right;
+}
+
+
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  padding-left: 10px;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+.file-section{
+  padding: 10px;
+  display:table;
+  
+}
+.disable{
+  opacity: 0.5;
+  background: #CCC;
+  pointer-events: none;
+  border-radius: 8px;
+  
+}
+.audio-section{
+  padding-top:10px;
+}
+#lesson_image{
+  padding-bottom:5px;
+}
+
+.file_upload{
+  padding-bottom: 6px!important;
+}
+
+.err-input{
+  border: #eb1318ff 1px solid;
+}
+
+.err-msg{
+  color:#eb1318ff;
+}
+
+.hide{
+  display:none;
+}
+
+.dis-flex{
+  display: flex;
+}
+.inline-flex{
+  display:inline-flex;
+}
+.remove-file{
+  height: 23px;
+  display: -webkit-flex;
+}
+
+.file_transp{
+  color: transparent;
+  width: 13ch;
+}
+.up-file-name{
+  display: -webkit-box;
+}
+
+.opt-name{
+  width: 90%;
+}
+
+.opt-block{
+  padding: 0px 10px 6px 0px;
+}
+
+.add-more-option-field{
+  padding-top:8px;
+}
+.marg-right{
+  margin-right:5px;
+}
+.polaroid{
+  list-style: none;
+  min-height: 35em;
+}
+
+.polaroid li{
+	list-style: none;
+	float: left;
+	margin: 5px;
+	width: 222px;
+	border: #EEE 1px solid;
+}
+
+.polaroid li .polaroidimg{
+	margin: 10px 10px 0 10px;
+	/*border: #EEE 1px solid;*/
+}
+
+.polaroid li .polaroidlabel{
+	margin: 0 10px;
+	height: 42px;
+	overflow: hidden;
+}
+
+.polaroid li .polaroidlabel .tr{
+	display: table;
+	width: inherit;
+	height: inherit;
+}
+
+.polaroid li .polaroidlabel .tr .td{
+	display: table-cell;
+	vertical-align: middle;
+	font: normal 15px/20px Arial, Helvetica, sans-serif;
+}
+
+.polaroid li .polaroidlabel div p{
+	margin-bottom: 10px;
+}
+
+.polaroid li .polaroidoption{
+	border-top: #EEE 1px solid;
+	padding: 10px 10px 5px 10px;
+}
+
+.del-buton:hover{
+  opacity:0.8;
+}
+
+.del-buton{
+  cursor: pointer;
+}
